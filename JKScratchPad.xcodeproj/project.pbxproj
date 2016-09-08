@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		383DCA791D7FA7FC00140999 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 383DCA781D7FA7FC00140999 /* main.m */; };
+		383DCA7C1D7FA7FC00140999 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383DCA7B1D7FA7FC00140999 /* AppDelegate.m */; };
+		383DCA7F1D7FA7FC00140999 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383DCA7E1D7FA7FC00140999 /* ViewController.m */; };
+		383DCA821D7FA7FC00140999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383DCA801D7FA7FC00140999 /* Main.storyboard */; };
+		383DCA851D7FA7FC00140999 /* JKScratchPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 383DCA831D7FA7FC00140999 /* JKScratchPad.xcdatamodeld */; };
+		383DCA871D7FA7FC00140999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383DCA861D7FA7FC00140999 /* Assets.xcassets */; };
+		383DCA8A1D7FA7FC00140999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383DCA881D7FA7FC00140999 /* LaunchScreen.storyboard */; };
+		383DCA951D7FA7FD00140999 /* JKScratchPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383DCA941D7FA7FD00140999 /* JKScratchPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		383DCA911D7FA7FD00140999 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 383DCA6C1D7FA7FC00140999 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 383DCA731D7FA7FC00140999;
+			remoteInfo = JKScratchPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		383DCA741D7FA7FC00140999 /* JKScratchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKScratchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383DCA781D7FA7FC00140999 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		383DCA7A1D7FA7FC00140999 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		383DCA7B1D7FA7FC00140999 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		383DCA7D1D7FA7FC00140999 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		383DCA7E1D7FA7FC00140999 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		383DCA811D7FA7FC00140999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383DCA841D7FA7FC00140999 /* JKScratchPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JKScratchPad.xcdatamodel; sourceTree = "<group>"; };
+		383DCA861D7FA7FC00140999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		383DCA891D7FA7FC00140999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		383DCA8B1D7FA7FC00140999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383DCA901D7FA7FD00140999 /* JKScratchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKScratchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		383DCA941D7FA7FD00140999 /* JKScratchPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKScratchPadTests.m; sourceTree = "<group>"; };
+		383DCA961D7FA7FD00140999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383DCA711D7FA7FC00140999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383DCA8D1D7FA7FD00140999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383DCA6B1D7FA7FC00140999 = {
+			isa = PBXGroup;
+			children = (
+				383DCA761D7FA7FC00140999 /* JKScratchPad */,
+				383DCA931D7FA7FD00140999 /* JKScratchPadTests */,
+				383DCA751D7FA7FC00140999 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383DCA751D7FA7FC00140999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383DCA741D7FA7FC00140999 /* JKScratchPad.app */,
+				383DCA901D7FA7FD00140999 /* JKScratchPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383DCA761D7FA7FC00140999 /* JKScratchPad */ = {
+			isa = PBXGroup;
+			children = (
+				383DCA7A1D7FA7FC00140999 /* AppDelegate.h */,
+				383DCA7B1D7FA7FC00140999 /* AppDelegate.m */,
+				383DCA7D1D7FA7FC00140999 /* ViewController.h */,
+				383DCA7E1D7FA7FC00140999 /* ViewController.m */,
+				383DCA801D7FA7FC00140999 /* Main.storyboard */,
+				383DCA861D7FA7FC00140999 /* Assets.xcassets */,
+				383DCA881D7FA7FC00140999 /* LaunchScreen.storyboard */,
+				383DCA8B1D7FA7FC00140999 /* Info.plist */,
+				383DCA831D7FA7FC00140999 /* JKScratchPad.xcdatamodeld */,
+				383DCA771D7FA7FC00140999 /* Supporting Files */,
+			);
+			path = JKScratchPad;
+			sourceTree = "<group>";
+		};
+		383DCA771D7FA7FC00140999 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				383DCA781D7FA7FC00140999 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		383DCA931D7FA7FD00140999 /* JKScratchPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				383DCA941D7FA7FD00140999 /* JKScratchPadTests.m */,
+				383DCA961D7FA7FD00140999 /* Info.plist */,
+			);
+			path = JKScratchPadTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383DCA731D7FA7FC00140999 /* JKScratchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383DCA991D7FA7FD00140999 /* Build configuration list for PBXNativeTarget "JKScratchPad" */;
+			buildPhases = (
+				383DCA701D7FA7FC00140999 /* Sources */,
+				383DCA711D7FA7FC00140999 /* Frameworks */,
+				383DCA721D7FA7FC00140999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKScratchPad;
+			productName = JKScratchPad;
+			productReference = 383DCA741D7FA7FC00140999 /* JKScratchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		383DCA8F1D7FA7FD00140999 /* JKScratchPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383DCA9C1D7FA7FD00140999 /* Build configuration list for PBXNativeTarget "JKScratchPadTests" */;
+			buildPhases = (
+				383DCA8C1D7FA7FD00140999 /* Sources */,
+				383DCA8D1D7FA7FD00140999 /* Frameworks */,
+				383DCA8E1D7FA7FD00140999 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				383DCA921D7FA7FD00140999 /* PBXTargetDependency */,
+			);
+			name = JKScratchPadTests;
+			productName = JKScratchPadTests;
+			productReference = 383DCA901D7FA7FD00140999 /* JKScratchPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383DCA6C1D7FA7FC00140999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jayesh Kawli Backup";
+				TargetAttributes = {
+					383DCA731D7FA7FC00140999 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					383DCA8F1D7FA7FD00140999 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 383DCA731D7FA7FC00140999;
+					};
+				};
+			};
+			buildConfigurationList = 383DCA6F1D7FA7FC00140999 /* Build configuration list for PBXProject "JKScratchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383DCA6B1D7FA7FC00140999;
+			productRefGroup = 383DCA751D7FA7FC00140999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383DCA731D7FA7FC00140999 /* JKScratchPad */,
+				383DCA8F1D7FA7FD00140999 /* JKScratchPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383DCA721D7FA7FC00140999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383DCA8A1D7FA7FC00140999 /* LaunchScreen.storyboard in Resources */,
+				383DCA871D7FA7FC00140999 /* Assets.xcassets in Resources */,
+				383DCA821D7FA7FC00140999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383DCA8E1D7FA7FD00140999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383DCA701D7FA7FC00140999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383DCA7F1D7FA7FC00140999 /* ViewController.m in Sources */,
+				383DCA7C1D7FA7FC00140999 /* AppDelegate.m in Sources */,
+				383DCA791D7FA7FC00140999 /* main.m in Sources */,
+				383DCA851D7FA7FC00140999 /* JKScratchPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		383DCA8C1D7FA7FD00140999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383DCA951D7FA7FD00140999 /* JKScratchPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		383DCA921D7FA7FD00140999 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 383DCA731D7FA7FC00140999 /* JKScratchPad */;
+			targetProxy = 383DCA911D7FA7FD00140999 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		383DCA801D7FA7FC00140999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383DCA811D7FA7FC00140999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		383DCA881D7FA7FC00140999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383DCA891D7FA7FC00140999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383DCA971D7FA7FD00140999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		383DCA981D7FA7FD00140999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383DCA9A1D7FA7FD00140999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKScratchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKScratchPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		383DCA9B1D7FA7FD00140999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKScratchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKScratchPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		383DCA9D1D7FA7FD00140999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKScratchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKScratchPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKScratchPad.app/JKScratchPad";
+			};
+			name = Debug;
+		};
+		383DCA9E1D7FA7FD00140999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKScratchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayeshKawli.JKScratchPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKScratchPad.app/JKScratchPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383DCA6F1D7FA7FC00140999 /* Build configuration list for PBXProject "JKScratchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383DCA971D7FA7FD00140999 /* Debug */,
+				383DCA981D7FA7FD00140999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383DCA991D7FA7FD00140999 /* Build configuration list for PBXNativeTarget "JKScratchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383DCA9A1D7FA7FD00140999 /* Debug */,
+				383DCA9B1D7FA7FD00140999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		383DCA9C1D7FA7FD00140999 /* Build configuration list for PBXNativeTarget "JKScratchPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383DCA9D1D7FA7FD00140999 /* Debug */,
+				383DCA9E1D7FA7FD00140999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		383DCA831D7FA7FC00140999 /* JKScratchPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				383DCA841D7FA7FC00140999 /* JKScratchPad.xcdatamodel */,
+			);
+			currentVersion = 383DCA841D7FA7FC00140999 /* JKScratchPad.xcdatamodel */;
+			path = JKScratchPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 383DCA6C1D7FA7FC00140999 /* Project object */;
+}
