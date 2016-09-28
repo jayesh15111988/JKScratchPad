@@ -11,6 +11,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) UIView* v;
+
 @end
 
 @implementation ViewController
@@ -21,15 +23,15 @@
     [super viewDidLoad];
     
     CGFloat maxRadius = 160;
-    UIView* v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, (maxRadius * 2) + 44, maxRadius * 2)];
-    v.layer.borderColor = [UIColor darkGrayColor].CGColor;
-    v.layer.borderWidth = 2.0;
-    v.center = CGPointMake(200, 400);
-    [self.view addSubview:v];
+    self.v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, (maxRadius * 2) + 44, maxRadius * 2)];
+    self.v.layer.borderColor = [UIColor darkGrayColor].CGColor;
+    self.v.layer.borderWidth = 2.0;
+    self.v.center = CGPointMake(200, 400);
+    [self.view addSubview:self.v];
     
     UIView* legendView = [[UIView alloc] initWithFrame:CGRectMake(maxRadius * 2, 0, 44, maxRadius * 2)];
     legendView.backgroundColor = [UIColor blueColor];
-    [v addSubview:legendView];
+    [self.v addSubview:legendView];
     
     CGFloat center = maxRadius;
     
@@ -43,11 +45,11 @@
     
     CAShapeLayer* layer4 = [self createPieSliceWithRadius:120 startAngle:330 andEndAngle:360 andCenter:CGPointMake(center, center) andColor:UIColorFromRGB(0x2c3e50)];
     
-    [v.layer addSublayer:layer];
-    [v.layer addSublayer:layer1];
-    [v.layer addSublayer:layer2];
-    [v.layer addSublayer:layer3];
-    [v.layer addSublayer:layer4];
+    [self.v.layer addSublayer:layer];
+    [self.v.layer addSublayer:layer1];
+    [self.v.layer addSublayer:layer2];
+    [self.v.layer addSublayer:layer3];
+    [self.v.layer addSublayer:layer4];
     
     [layer addSublayer:[self labelForLayerWithCenter:CGPointMake(center, center) andRadius:100 andStartAngle:0 andEndAngle:60]];
     [layer1 addSublayer:[self labelForLayerWithCenter:CGPointMake(center, center) andRadius:60 andStartAngle:60 andEndAngle:210]];
@@ -106,6 +108,27 @@
     
     [piePath closePath];
     return piePath.CGPath;
+}
+
+- (CALayer *)layerForTouch:(UITouch *)touch {
+    UIView *view = self.v;
+    
+    CGPoint location = [touch locationInView:view];
+    location = [view convertPoint:location toView:nil];
+    
+    CALayer *hitPresentationLayer = [view.layer.presentationLayer hitTest:location];
+    if (hitPresentationLayer) {
+        return hitPresentationLayer.modelLayer;
+    }
+    
+    return nil;
+} 
+
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch *touch = [touches anyObject];
+    CALayer *hitLayer = [self layerForTouch:touch];
+    hitLayer.hidden = YES;
 }
 
 
